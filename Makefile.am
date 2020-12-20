@@ -47,6 +47,7 @@ linux_platform_headers = \
 	linux/LinuxProcessList.h \
 	linux/LinuxCRT.h \
 	linux/Battery.h \
+	TemperatureMeter.h \
 	linux/PressureStallMeter.h \
 	zfs/ZfsArcMeter.h \
 	zfs/ZfsCompressedArcMeter.h \
@@ -55,7 +56,7 @@ linux_platform_headers = \
 if HTOP_LINUX
 AM_LDFLAGS += -rdynamic
 myhtopplatsources = linux/Platform.c linux/IOPriorityPanel.c \
-linux/LinuxProcess.c linux/LinuxProcessList.c linux/LinuxCRT.c linux/Battery.c \
+linux/LinuxProcess.c linux/LinuxProcessList.c linux/LinuxCRT.c linux/Battery.c TemperatureMeter.c \
 linux/PressureStallMeter.c \
 zfs/ZfsArcMeter.c zfs/ZfsCompressedArcMeter.c zfs/ZfsArcStats.c
 

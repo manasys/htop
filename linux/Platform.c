@@ -51,6 +51,7 @@ in the source distribution for its full text.
 #include "SwapMeter.h"
 #include "SystemdMeter.h"
 #include "TasksMeter.h"
+#include "TemperatureMeter.h"
 #include "UptimeMeter.h"
 #include "XUtils.h"
 #include "ZramMeter.h"
@@ -165,6 +166,7 @@ const MeterClass* const Platform_meterTypes[] = {
    &MemoryMeter_class,
    &SwapMeter_class,
    &TasksMeter_class,
+   &TemperatureMeter_class,
    &UptimeMeter_class,
    &BatteryMeter_class,
    &HostnameMeter_class,

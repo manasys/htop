@@ -62,6 +62,7 @@ myhtopsources = \
 	SignalsPanel.c \
 	SwapMeter.c \
 	TasksMeter.c \
+	TemperatureMeter.c \
 	TraceScreen.c \
 	UptimeMeter.c \
 	UsersTable.c \
@@ -116,6 +117,7 @@ myhtopheaders = \
 	SignalsPanel.h \
 	SwapMeter.h \
 	TasksMeter.h \
+	TemperatureMeter.h \
 	TraceScreen.h \
 	UptimeMeter.h \
 	UsersTable.h \

@@ -80,7 +80,7 @@ MeterClass TemperatureMeter_class = {
    },
    .updateValues = TemperatureMeter_setValues,
    .defaultMode = TEXT_METERMODE,
-   .maxItems = 4,
+   .maxItems = 1,
    .total = 100.0,
    .attributes = TemperatureMeter_attributes,
    .name = "Temperature",

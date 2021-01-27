@@ -29,12 +29,12 @@ in the source distribution for its full text.
 //#link m
 
 static void printVersionFlag() {
-   fputs("htop " VERSION "\n", stdout);
+   fputs("htop " VERSION " ManaSys 2020\n", stdout);
    exit(0);
 }
 
 static void printHelpFlag() {
-   fputs("htop " VERSION "\n"
+   fputs("htop " VERSION " ManaSys 2020\n"
          "Released under the GNU GPL.\n\n"
          "-C --no-color               Use a monochrome color scheme\n"
          "-m --no-mouse               Disable the mouse\n"
